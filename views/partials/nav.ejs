@@ -1,0 +1,10 @@
+<div class="bg-nav">
+    <nav>
+        <a href="/"><img id="logo" alt="logo" src="img/logo.png"></a>
+        <ul>
+            <% menu.forEach((entry) => { %>
+                <li><a href="/<%= entry.local %>"><%= entry.label %></a></li>
+            <% }) %>
+        </ul>
+    </nav>
+</div>

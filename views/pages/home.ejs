@@ -1,0 +1,27 @@
+<aside id="info_banner">
+    Internetová stránka Ranču Transylwahnja sprístupňuje informácie o chove koní, komposte, ekologickom
+    poľnohospodárstve a výrobe domácich potravín rodiny Pipovcov. Uplatňuje princípy <a
+            href="http://www.agrowebcee.net" target="_blank"><b>AgroWeb Networku</b></a>, ktorého cieľom je výmena
+    skúseností medzi agro-ekologicky zameranými ľuďmi, organizáciami a farmami produkujúcimi biopotraviny.
+</aside>
+<h1>Čo nového na ranči</h1>
+<section id="main_content">
+
+    <% data.forEach((entry) => { %>
+        <article class="newsflash">
+            <a href="javascript:popImage('<%= entry.img %>',':: RANČ TRANSYLWAHNJA :: ','');">
+                <img src="<%= entry.img %>" alt="<%= entry.alt %>">
+            </a>
+            <time datetime="<%= entry.datetime %>"><%= entry.date %></time>
+            <h2><%= entry.title %></h2>
+            <p><%= entry.text %></p>
+
+        </article>
+    <% }) %>
+</section>
+<section class="pagination">
+    <h1>Archív noviniek</h1>
+    <p>
+        1 | <a href="ranc.php?page_id=2">2</a> | <a href="ranc.php?page_id=3">3</a>
+    </p>
+</section>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<%- include ("partials/head.ejs") %>
+
+<body>
+    <header>
+        <%- include ("partials/nav.ejs") %>
+    </header>
+    <%- include ("partials/header.ejs") %>
+
+    <div id="wrap_content">
+        <main>
+            <%- include ("pages/" + page) %>
+        </main>
+    </div>
+
+    <aside id="right_panel">
+        <%- include ("partials/right_panel.ejs") %>
+    </aside>
+
+    <footer>
+        <p>
+            &copy; <a href="http://www.transylwahnja.eu">www.transylwahnja.eu</a>, 2020
+        </p>
+    </footer>
+</body>
+
+</html>

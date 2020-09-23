@@ -1,0 +1,50 @@
+[
+  {
+    "local": "onas",
+    "label": "O nás"
+  },
+  {
+    "local": "biofarma",
+    "label": "Biofarma"
+  },
+  {
+    "local": "kompostovanie",
+    "label": "Kompostovanie"
+  },
+  {
+    "local": "zvierata",
+    "label": "Zvieratá / Shirské kone"
+  },
+  {
+    "local": "produkty",
+    "label": "Produkty"
+  },
+  {
+    "local": "turistika",
+    "label": "Turistika"
+  },
+  {
+    "local": "aktivity",
+    "label": "Aktivity"
+  },
+  {
+    "local": "praca",
+    "label": "Brigáda / Práca"
+  },
+  {
+    "local": "media",
+    "label": "Médiá o nás"
+  },
+  {
+    "local": "fotogaleria",
+    "label": "Fotogaléria"
+  },
+  {
+    "local": "ako_nas_najdete",
+    "label": "Ako nás nájdete"
+  },
+  {
+    "local": "kontakt",
+    "label": "Kontakt"
+  }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<%- include ("partials/head.ejs") %>
+
+<body>
+
+    <nav>
+        <%- include ("partials/nav.ejs" , menu); %>
+    </nav>
+
+    <header>
+        <%- include ("partials/header.ejs") %>
+    </header>
+
+    <main>
+        <h1 class="warning">404 Stránka nenájdená!</h1>
+        <p>Skúste <a href="/">domovskú stránku</a></p>
+    </main>
+    <aside id="right_panel">
+        <%- include ("partials/right_panel.ejs") %>
+    </aside>
+
+    <footer>
+        &copy; <a href="http://www.transylwahnja.eu">www.transylwahnja.eu</a>, 2020
+    </footer>
+</body>
+
+</html>
